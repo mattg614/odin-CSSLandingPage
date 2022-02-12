@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.header, .content-one {
+.header, .content-one ,.container ,.content-three{
     padding-left: 15vw;
     padding-right:15vw;
     padding-bottom: 10vh;
@@ -62,13 +62,57 @@ a , .hero-sub-text {
     font-weight:bolder;
 }
 
-.img-cards {
-    width: 300px;
-}
-
 .sign-up {
     background-color: #3882F6;
     display: inline-block;
     padding: 8px 16px;
     border-radius: 8px;
+}
+
+.content-two {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    
+}
+.sub-title {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+
+}
+.info {
+    width: 155px;
+}
+.img-cards {
+    padding-bottom: 4px;
+}
+
+.content-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.testimonial {
+    font-style: italic;
+}
+.testimonial-signature{
+    font-weight: 700;
+    font-size: 28px;
+    align-self: flex-end;
 }
