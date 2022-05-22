@@ -23,7 +23,8 @@ body {
 
 .header , .content-one {
     background-color: #1F2937;
-    color: #F9FAF8;
+    /* color: #F9FAF8; */
+    color: blue;
 }
 
 
